@@ -15,7 +15,7 @@ function validateLogin() {
   if (pinInputValue === validPin && userNumbers.includes(numberInputValue)) {
     alert("Login successful!");
 
-    window.location.assign("/home.html");
+    window.location.assign("home.html");
     // window.location.href = "home.html";
   } else {
     alert("Invalid mobile number or pin. Please try again.");
